@@ -49,9 +49,9 @@ class dpchallengeImageParser(HTMLParser):
 		    self.name = tmpName
 		    break
 
-savePath = r'../image'
+savePath = r'image'
 URLprefix = r'http://www.dpchallenge.com/image.php?IMAGE_ID='
-AVAtxt = r'../AVA.txt'
+AVAtxt = r'AVA.txt'
 
 # arg check
 if len(sys.argv) < 3:
